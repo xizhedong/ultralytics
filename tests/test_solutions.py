@@ -30,13 +30,13 @@ SOLUTIONS = [
         DEMO_VIDEO,
         {"region": REGION, "model": MODEL, "show": SHOW},
     ),
-    # (
-    #     "Heatmap",
-    #     solutions.Heatmap,
-    #     False,
-    #     DEMO_VIDEO,
-    #     {"colormap": cv2.COLORMAP_PARULA, "model": MODEL, "show": SHOW, "region": None},
-    # ),
+    (
+        "Heatmap",
+        solutions.Heatmap,
+        False,
+        DEMO_VIDEO,
+        {"colormap": cv2.COLORMAP_PARULA, "model": MODEL, "show": SHOW, "region": None},
+    ),
     # (
     #     "HeatmapWithRegion",
     #     solutions.Heatmap,
