@@ -270,11 +270,11 @@ For easy inference, you can use the Ultralytics YOLO Python library or the comma
     === "Python"
 
         ```python
-        from ultralytics import YOLO
+        from ultralytics import YOLOv10
 
         # Load the pre-trained YOLOv10n model
-        model = YOLO("yolov10n.pt")
-        results = model("image.jpg")
+        model = YOLOv10("yolov10n.pt")
+        results = model.predict("image.jpg",save=True)
         results[0].show()
         ```
 
